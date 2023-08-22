@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Hanken', sans-serif;
+    font-size: 1.8rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    width: 65rem;
+    height: 45rem;
+    border-radius: 25px;
+    box-shadow: 5px 5px 20px hsl(240, 32%, 92%);
+}
+
+.attribution, a{
+    margin-top: 1.5rem;
+    color: #ccc;
+}
+
+
+/* -------------RESULTADO------------- */
+
+.result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: hsl(0, 0%, 100%);
+    border-radius: 25px;
+    width: 50%;
+}
+
+.text{
+    color: hsl(241, 100%, 89%);
+    letter-spacing: 1.1px;
+    font-weight: 700;
+}
+
+.total{
+    width: 180px;
+    height: 180px;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.6rem;
+}
+
+.total span{
+    font-size: 1.4rem;
+    color: hsl(221, 100%, 96%);
+}
+
+h3{
+    font-size: 2.4rem;
+}
+
+.scored{
+    text-align: center;
+    width: 75%;
+    font-size: 1.6rem;
+    margin: 10px;
+}
+
+/* -------------RESUMO------------- */
+
+.summary{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem;
+    color: hsl(224, 30%, 27%);
+    width: 50%;
+}
+
+.test-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px 15px 10px;
+    border-radius: 10px;
+    font-size: 1.6rem;
+}
+
+.icon-text{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.red{
+    color: #F55;
+    background-color: hsla(0, 100%, 67%, 0.15);
+    font-weight: 700;
+}
+
+.yellow{
+    color:#FFB21E;
+    background-color: hsla(39, 100%, 56%, 0.15);
+    font-weight: 700;
+}
+
+.green{
+    color:#00bb8f;
+    background-color: hsla(166, 100%, 37%, 0.15);
+    font-weight: 700;
+}
+
+.blue{
+    color: #1125D6;
+    background-color: hsla(234, 85%, 45%, 0.15);
+    font-weight: 700;
+}
+
+.score-test{
+    color: hsl(224, 30%, 27%);
+}
+
+.outOf{
+    color: hsl(241, 23%, 64%);
+}
+
+.btn{
+    cursor: pointer;
+    height: 70px;
+    margin-top: 10px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    letter-spacing: 1.1px;
+}
+
+.btn:hover{
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
